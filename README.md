@@ -1,0 +1,1 @@
+The goal is to create a RuneLite plugin for OSRS. We are starting simple with a loot tracker. This loot tracker will rely on an API that we will also build.

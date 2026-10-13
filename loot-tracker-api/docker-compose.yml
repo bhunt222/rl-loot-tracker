@@ -1,0 +1,14 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: loot
+      POSTGRES_USER: loot
+      POSTGRES_PASSWORD: loot
+    ports:
+      - "5432:5432"
+    volumes:
+      - loot-data:/var/lib/postgresql/data
+
+volumes:
+  loot-data:
